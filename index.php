@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link href="css/maincss.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/socials.css" rel="stylesheet">
     <link href="css/skillset.css" rel="stylesheet">
     <link href="css/education.css" rel="stylesheet">
     <link href="css/timeline.css" rel="stylesheet">
@@ -14,7 +16,7 @@
 /*SOCIALS*/
 include "View/socialSection.php";
 /*HEADER*/
-
+include "View/header.php";
 /*ABOUT SECTION*/
 
 /*EDUCATION SECTION*/
