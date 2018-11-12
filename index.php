@@ -10,17 +10,18 @@
     <title>Tom Mennis - Software Developer</title>
 </head>
 <body>
-<!--SOCIALS-->
+<?php
+/*SOCIALS*/
+include "View/socialSection.php";
+/*HEADER*/
 
-<!--HEADER-->
+/*ABOUT SECTION*/
 
-<!--ABOUT SECTION-->
+/*EDUCATION SECTION*/
 
-<!--EDUCATION SECTION-->
+/*SKILLSET SECTION*/
 
-<!--SKILLSET SECTION-->
-
-<!--MY WORK SECTION-->
-
+/*MY WORK SECTION*/
+?>
 </body>
 </html>
