@@ -43,3 +43,10 @@
     padding: 10px 100px;
     text-align: left;
 }
+
+.nav {
+    position: absolute;
+    width: 50%;
+    top: 40px;
+    left: 100px;
+}
