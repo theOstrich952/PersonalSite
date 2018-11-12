@@ -40,3 +40,15 @@ hr {
 .break{
     clear:both;
 }
+
+@media only screen and (max-width: 767px) {
+    .progress-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .double-col{
+        width: 100%;
+    }
+}
