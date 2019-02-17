@@ -1,0 +1,47 @@
+.bannerImg
+{
+	position: absolute;
+	opacity: 1;
+}
+
+#img1
+{
+	top: 0px;
+	left: 0px;
+	
+	width: 33.333333%;
+	height: 100%;
+}
+#img2
+{
+	top: 0px;
+	left: 33.333333%;
+	width: 33.333333%;
+	height: 100%;	
+}
+#img3
+{
+	top: 0px;
+	left: 66.666666%;
+	
+	width: 33.33333%;
+	height: 100%;
+}
+
+#TOP
+{	
+	position: absolute;
+	top: 0px;
+	left: 46.5%;
+	
+	background:   #111111;
+	
+	width: 25%;
+	height: 25%;
+	opacity: 1;
+}
+#TOP:hover
+{	
+	opacity: 0.50;
+	
+}

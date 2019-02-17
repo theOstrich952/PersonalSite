@@ -1,0 +1,153 @@
+/* 
+	HTML Document
+    Author     : Tom Mennis/D00156078
+*/
+#topmenu a:link 
+{
+    text-decoration: none;
+}
+
+#topmenu a:visited 
+{
+    text-decoration: none;
+}
+#topmenu a:link 
+{
+    background-color: #1A1A1A;;
+}
+
+#topmenu a:visited 
+{
+    background-color: #1A1A1A;
+}
+
+body 
+{
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    background:   #111111;
+}
+
+#menu
+{
+    width: 100%;
+    left: 12.5%;
+    height: 6%;
+    background: #1A1A1A; 
+}
+#container
+{
+    position     : relative;
+    min-width    : 1000px;
+    max-width	 : 1150px;
+    margin       : auto;
+    overflow	 : hidden;  
+}
+#user
+{
+    position: absolute;
+    right : 0px;
+    color : #2288bb;
+    background-color : #555;
+    opacity: 0.6;
+    z-index: 1;
+}
+#user p
+{
+    color : #fff;
+    opacity: 1;
+}
+#banner
+{
+    position: relative;
+    width  : 100%;
+    min-height : 300px;
+}
+
+#pagecontent
+{
+    background-color: #FFF;
+    min-height  : 600px;
+    width: 100%;
+}
+#topmenu
+{  
+    position : relative;  
+    height : 30%;
+    width: 100%;
+    background: #1A1A1A; 
+    z-index: 500;
+}
+
+#topmenu ul 
+{
+    position: relative;
+    width: 100%;
+    display: inline;
+    list-style: none;
+}
+#topmenu ul li 
+{
+    font: bold 16px/18px sans-serif;
+    display: inline-block;
+    margin-right: -1%;
+    position: relative;
+    padding: 15px 4%;
+    background: #1A1A1A;
+    cursor: pointer;
+	color:#FFF;
+	
+    -webkit-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    -ms-transition: all 0.9s;
+    -o-transition: all 0.9s;
+    transition: all 0.9s;
+	
+}
+#topmenu ul li:hover 
+{
+    background: #3399cc;
+}
+
+
+#topmenu ul li ul 
+{
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 235px;
+    display: inline-block;
+	
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: none;
+    opacity: 1;
+    visibility: hidden;
+}
+
+#topmenu ul li ul li 
+{ 
+    width: 75%;
+    height: 25%;
+    background: #555; 
+    display: inline-block; 
+
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+}
+
+#topmenu ul li ul li:hover 
+{
+    background: #3399cc; 
+}
+
+#topmenu ul li:hover ul 
+{
+    display: block;
+	visibility:visible;
+	opacity: 1;
+}
+
+

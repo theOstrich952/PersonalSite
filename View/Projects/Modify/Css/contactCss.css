@@ -1,0 +1,45 @@
+/* CSS Document */
+.button
+{
+  	width:100px;
+  	background:#3399cc;
+  	display:block;
+  	margin:0 auto;
+  	margin-top:1%;
+  	padding:10px;
+  	text-align:center;
+  	text-decoration:none;
+  	color:#fff;
+  	cursor:pointer;
+	border:none;
+  	transition:background .5s;
+  	-webkit-transition:background .5s;
+}
+
+.button:hover
+{
+  	background:#2288bb;
+}
+
+#contactInfo
+{
+	margin-left: 25%;
+	width : 50%;
+}
+
+#information
+{
+	padding-top: 2.5%;
+}
+
+input
+{
+	margin-left : 12.5%;
+	margin-bottom: 2.5%;
+}
+#message
+{
+	min-height: 50px;
+	width : 75%;
+	
+}

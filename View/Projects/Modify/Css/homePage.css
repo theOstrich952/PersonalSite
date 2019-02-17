@@ -1,0 +1,218 @@
+/* 
+	Css Document.
+    Author     : Tom Mennis/D00156078
+*/
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+;
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+div.heading
+{
+	text-align : center;
+	color : #2288bb;
+	font-size : 50px; 
+}
+
+
+@media screen and (max-width: 55em) {
+
+	.container > header h1,
+	.container > header nav {
+		float: none;
+	}
+
+	.container > header > span,
+	.container > header h1 {
+		text-align: center;
+	}
+
+	.container > header nav {
+		margin: 0 auto;
+	}
+
+	.container > header > span {
+		text-indent: 30px;
+	}
+}
+.scroller
+{
+	position:relative;
+}
+
+.cbp-so-section {
+	margin-top: 5%;
+	margin-bottom: 35%;
+	
+}
+
+/* Clear floats of children */
+.cbp-so-section:before,
+.cbp-so-section:after {
+	content: " ";
+	display: block;
+}
+
+.cbp-so-section:after {
+	clear: both;
+}
+
+/* Text styling */
+.cbp-so-section h2 {
+	font-size:40px;
+	font-weight: 300;
+	line-height: 1;
+	color: #2288bb;
+}
+
+.cbp-so-section p {
+	font-size: 25px;
+	font-weight: 300;
+}
+
+/* Sides */
+.cbp-so-side {
+	width: 50%;
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	min-height: 12em;
+	
+	-webkit-transition: -webkit-transform 1s, opacity 1s ease-in-out;
+	-moz-transition: -moz-transform 1s, opacity 1s ease-in-out;
+	-ms-transition: -ms-transform 1s, opacity 1s ease-in-out;
+	-o-transition: -o-transform 1s, opacity 1s ease-in-out;
+	transition: transform 1s, opacity 1s ease-in-out;
+}
+
+/* Clear floats of children */
+.cbp-so-side:before,
+.cbp-so-side:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-so-side:after {
+	clear: both;
+}
+
+.cbp-so-side-right {
+	text-align: center;
+	border-top: 2px solid #2288bb;
+	border-bottom: 2px solid #2288bb;
+	border-right: 2px solid #2288bb;
+}
+article.cbp-so-side-right  
+{
+	min-height: 328px;
+	max-height: 328px;
+}
+
+.cbp-so-side-left {
+	text-align: center;
+	
+	border-top: 2px solid #2288bb;
+	border-bottom: 2px solid #2288bb;
+	border-left: 2px solid #2288bb;
+}
+
+article.cbp-so-side-left  
+{
+	min-height: 328px;
+	max-height: 328px;
+}
+.cbp-so-side-right img 
+{
+	float: left;
+	max-height: 324px;
+	min-height: 324px;
+}
+
+.cbp-so-side-left img 
+{
+	float: right;
+	max-height: 324px;
+	min-height: 324px;
+}
+
+/* Initial state (hidden or anything else) */
+.cbp-so-init .cbp-so-side {
+	opacity: 0;
+}
+
+.cbp-so-init .cbp-so-side-left {
+	-webkit-transform: translateX(-500px);
+	-moz-transform: translateX(-500px);
+	transform: translateX(-500px);
+}
+
+.cbp-so-init .cbp-so-side-right {
+	-webkit-transform: translateX(500px);
+	-moz-transform: translateX(500px);
+	transform: translateX(500px);
+}
+
+/* Animated state */
+/* add you final states (transition) or your effects (animations) for each side */
+.cbp-so-section.cbp-so-animate .cbp-so-side-left,
+.cbp-so-section.cbp-so-animate .cbp-so-side-right {
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+	opacity: 1;
+}
+
+#search
+{
+    position: relative;
+    width: 100%;
+    height : 20px;
+    border : 1px solid #2288bb; 
+}
+
+#searchBar
+{
+    position: relative;
+    width: 80%;
+    text-align : center;
+    
+    background-color: #1A1A1A;
+    color : #2288bb;
+    border-color: transparent;
+    float : left;
+    overflow : hidden;
+    border-bottom : 1px solid #2288bb;
+}
+#searchBar:focus
+{
+    color: #fff;
+    box-shadow: 0px 0px 10px #2288bb;    
+}
+
+#searchButton
+{
+    width : 20%;
+    background : #226fbb;
+    background-color: #226fbb;
+    border-color: transparent;
+    float : right;
+    color:#fff;
+    cursor : pointer;
+}
+
+#pdfForm
+{  
+    position : absolute;
+    top : 270px;
+}
+#pdfButton
+{  
+    position : relative;
+    border : transparent;
+    background-color: #2288bb;
+    color : black;
+    font-size: 25px;
+    cursor: pointer; 
+}
