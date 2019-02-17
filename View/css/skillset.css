@@ -1,0 +1,54 @@
+hr {
+    width: 99%;
+    height: 1px;
+    background: #76B54E;
+}
+
+.double-col{
+    width:50%;
+    float: left;
+}
+
+.double-col h2 {
+    float: none;
+    color: #8860D0;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.progress-container{
+    width: 90%;
+    height: 20px;
+    position: relative;
+    background-color: #D1D7EB;
+    margin-bottom: 30px;
+}
+
+.progress-bar{
+    background: #8760d0;
+    background: -moz-linear-gradient(left, #A88BDC 0%, #8860D0 100%);
+    background: -webkit-linear-gradient(left, #A88BDC 0%, #8860D0 100%);
+    background: -o-linear-gradient(left, #A88BDC 0%, #8860D0 100%);
+    background: -ms-linear-gradient(left, #A88BDC 0%, #8860D0 100%);
+    background: linear-gradient(to right, #A88BDC 0%, #8860D0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1c8e4', endColorstr='#8860d0', GradientType=1 );
+    height: 100%;
+    position: absolute;
+    line-height: inherit;
+}
+
+.break{
+    clear:both;
+}
+
+@media only screen and (max-width: 767px) {
+    .progress-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .double-col{
+        width: 100%;
+    }
+}
