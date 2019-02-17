@@ -4,11 +4,11 @@
   Date: 12/11/2018
   Time: 20:43
 /-->
-<div class="section white-section">
+<div class="section blue-section">
     <div class="section-content">
         <div class="title">
             <h1>Skill Set</h1>
-            <img src="images/section/skillSetIcon.png" alt="skill set icon">
+            <img src="View/images/section/skillSetIcon.png" alt="skill set icon">
         </div>
         <div class="content">
             <div>
